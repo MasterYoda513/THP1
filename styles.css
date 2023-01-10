@@ -1,0 +1,117 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header
+{
+text-align: right;
+}
+
+section
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.google
+{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.logo
+{
+   height: 92px;
+   width: 272px;
+
+}
+
+.recherche
+{
+ border: 1px solid;
+ border-color: grey;
+ border-radius: 60px;
+ width: 600px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.barre
+{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+}
+
+.loupe
+{
+    height: 25px;
+    padding: 5px;
+
+}
+
+.searchluck
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.rg
+{
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px; 
+    margin-right: 20px;
+   
+}
+.chance
+{
+    border: 1px solid;
+    border-color: grey;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+.tourisme
+{
+    text-align: center;
+}
+
+.coq
+{
+    border: 1px solid;
+    border-color: #dadce0;
+    background-color: #dadce0;
+}
+
+footer
+{
+    border: 1px solid;
+    border-color: #dadce0;
+    background-color: #dadce0;
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.feuille
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feet
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
